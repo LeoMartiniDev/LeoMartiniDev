@@ -1,7 +1,7 @@
 # Olá, eu sou o Léo!
 
 Desenvolvedor back-end desde 2021, com expêriencia no desenvolvimento de microsserviços de qualidade e eficiência. Considero que o melhor caminho para evoluir é questionando e compartilhando expêriencias. Entendo que o trabalho de um desenvolvedor é resolver problemas, independente da linguagem ou framework utilizados, gosto de desafio! Atualmente foco meus estudos em devops para entender melhor todo o ciclo de desenvolvimento, teste, entrega e manutenção.
-Caso tenha interesse em falar comigo, deixo a disposição meu [linkedin](https://www.linkedin.com/in/leonardo-lemos-martini-28573b1b1/) e meu email: leo.martini.dev@cwi.com.br.
+Caso tenha interesse em falar comigo, deixo a disposição meu [linkedin](https://www.linkedin.com/in/leonardo-lemos-martini-28573b1b1/) e meu email: leo.martini.dev@gmail.com.
 
 ## Experiência
 
