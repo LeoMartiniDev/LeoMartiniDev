@@ -22,7 +22,7 @@ Foi no instituto onde tive meu primeiro contato com o mundo do desenvolvimento d
 
 ## Habilidades
 
-Segue algumas tecnologias e ferramentas que eu já tive algum contato em projetos pessoais e profisisonais. 
+Segue algumas tecnologias e ferramentas que eu já tive algum contato em projetos pessoais e profissionais. 
 
 ### **Back End**
 
