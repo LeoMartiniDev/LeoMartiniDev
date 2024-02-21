@@ -1,0 +1,210 @@
+@media screen and (max-width: 849px) {
+
+    /*GLOBAL*/
+
+    .separador {
+        height: 100%;
+        width: 1px;
+        background-color: var(--cor-detalhe);
+    }
+
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h4 {
+        margin: 20px 0 20px 0;
+        padding-left: 10px;
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    img {
+        background-color: aliceblue;
+        border-radius: 50%;
+        width: 240px;
+        height: 240px;
+    }
+
+    /*SOBRE*/
+
+    .sobre {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 12vh;
+    }
+
+    .descricao {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70%;
+    }
+
+    .quem-sou {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .contato {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contato > ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .contato > ul > li {
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+    }
+
+    .contato > ul > li > svg {
+        margin-right: 10px;
+    }
+
+    /*INFORMACOES*/
+
+    .informacoes {
+        margin: 0 12vh;
+        padding: 10vh 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .experiencia {
+        max-width: 40%;
+        min-width: 300px;
+    }
+
+    .experiencia > h2 {
+        margin-bottom: 10px;
+    }
+
+    .formacao {
+        max-width: 40%;
+        min-width: 300px;
+    }
+
+    .formacao > h2 {
+        margin-bottom: 10px;
+    }
+
+    /*HABILIDADES*/
+
+    .habilidades {
+        flex-direction: column;
+        padding-top: 0vh;
+        margin: 0 10vh;
+        justify-content: space-evenly;
+    }
+
+    .habilidades > .titulo {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .habilidades > .titulo > hr {
+        width: 30%;
+        height: 1px;
+    }
+
+    .habilidades > .titulo > h2 {
+        width: 30%;
+        text-align: center;
+    }
+
+    .habilidades > ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .habilidades > ul > li {
+        display: flex;
+        margin: 20px 0;
+        align-items: center;
+    }
+
+    .habilidades > ul > li > h3 {
+        width: 25%;
+        color: var(--cor-detalhe);
+        font-size: 1.8rem;
+        margin: auto 0;
+        text-align: center;
+    }
+
+    .habilidades > ul > li > ul {
+        border-left: 1px solid var(--cor-detalhe);
+        display: flex;
+        width: 75%;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .habilidades > ul > li > ul > li {
+        width: 33%;
+        text-align: center;
+        margin: 8px 0px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+ 
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .separador {
+        display: none;
+    }
+
+    .informacoes {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .experiencia {
+        max-width: 100%;
+    }
+
+    .formacao {
+        max-width: 100%;
+    }
+
+    .habilidades > ul > li {
+        justify-content: space-between;
+    }
+
+    .habilidades > ul > li > h3 {
+        font-size: 1.4rem;
+        width: 30%;
+    }
+    
+    .habilidades > ul > li > ul {
+        width: 65%;
+    }
+
+}

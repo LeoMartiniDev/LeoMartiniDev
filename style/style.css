@@ -1,0 +1,53 @@
+:root {
+    --cor-fundo-1: #191E29;
+    --cor-fundo-2: #132D46;
+    --cor-texto: #FFFFFF;
+    --cor-detalhe: #01C38D;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background: linear-gradient(130deg, var(--cor-fundo-1), var(--cor-fundo-2));
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.sobre {
+    height: 100vh;
+    max-width: 1200px;
+    display: flex;
+}
+
+.informacoes {
+    min-height: 100vh;
+    max-width: 1200px;
+    display: flex;
+}
+
+.habilidades {
+    min-height: 100vh;
+    max-width: 1200px;
+    display: flex;
+}
+
+hr {
+    border-color: var(--cor-detalhe);
+}
+
+strong {
+    color: var(--cor-detalhe);
+}
+
+img {
+    object-fit: cover;
+}
